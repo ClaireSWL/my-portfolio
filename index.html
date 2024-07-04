@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Claire's portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Proza+Libre:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="owl.carousel.min.css" />
+    <link rel="stylesheet" href="owl.theme.default.min.css" />
+    <script src="jquery.min.js"></script>
+    <script src="owl.carousel.min.js"></script>
+
+    <script
+      src="https://kit.fontawesome.com/5f3810411b.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+  </head>
+
+  <body>
+    <div class="main_container">
+      <!-- Navigation Bar -->
+      <div class="navbar">
+        <div class="logo">
+          <a href="#">CLAIRE</a>
+        </div>
+
+        <ul class="links">
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#skill&service">Skill & Service</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#project">Project</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <div class="toggle_btn">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+
+        <div class="dropdown_menu">
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#skill&service">Skill & Service</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#project">Project</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </div>
+      </div>
+
+      <main>
+        <!-- Hero Page -->
+        <section id="hero">
+          <div class="content">
+            <img
+              class="hero_head_photo"
+              src="images/hero_head_photo_anima.jpg"
+              alt="image"
+            />
+
+            <div class="hero_text">
+              <h6>Hello there...</h6>
+              <h1>Claire Szu-Wen Lin</h1>
+              <h4>
+                I Am Passionate
+                <span class="type_it"></span>
+              </h4>
+              <p>
+                I design and develop services for customers of all sizes,
+                specializing in creating stylish, modern websites, web services
+                and online stores.
+              </p>
+
+              <div class="btn_bar go_to">
+                <a class="m_btn m_btn_theme" href="#projects">my work </a>
+                <a class="m_btn m_btn_t_theme" href="#contact">hire me</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="go_to_next">
+            <a href="#about">
+              <i class="fa-solid fa-arrow-down"></i>
+            </a>
+          </div>
+        </section>
+
+        <!-- About_Me Page -->
+        <section id="about">
+          <div class="container">
+            <div class="section_title">
+              <div class="loader">
+                <h3>about me</h3>
+              </div>
+              <p>
+                a <span>developer</span> and <span>designer</span> based in
+                <span>Taiwan</span>
+              </p>
+            </div>
+
+            <div class="content">
+              <div class="social_info">
+                <img
+                  class="about_me_img"
+                  src="images/about_me_photo.jpg"
+                  alt="image"
+                />
+
+                <div class="social_icon">
+                  <a href="https://github.com/ClaireSWL" target="_blank">
+                    <i class="fa-brands fa-github"></i>
+                  </a>
+                  <a
+                    href="https://www.linkedin.com/in/claireSWL"
+                    target="_blank"
+                  >
+                    <i class="fa-brands fa-linkedin-in"></i>
+                  </a>
+                </div>
+              </div>
+
+              <div class="about_text_content">
+                <div class="about_text">
+                  <h4>I'm <span>Claire Lin</span></h4>
+                  <p>
+                    I design and develop services for customers of all sizes,
+                    specializing in creating stylish, modern websites, web
+                    services and online stores. My passion is to design digital
+                    user experiences through the bold interface and meaningful
+                    interactions. Check out my portfolio.
+                  </p>
+
+                  <div class="file_list">
+                    <div class="file">
+                      <label>Birthday</label>
+                      <p>24th July 1986</p>
+                    </div>
+                    <div class="file">
+                      <label>Residence</label>
+                      <p>Taipei, Taiwan</p>
+                    </div>
+
+                    <div class="file">
+                      <label>Language</label>
+                      <p>
+                        Chinese <span>- native</span>
+                        <br />
+                        English <span>- conversational</span>
+                        <br />
+                        Japanese <span>- in process</span>
+                      </p>
+                    </div>
+                    <div class="file">
+                      <label>E-mail</label>
+                      <p>clairelin0724@gmail.com</p>
+                    </div>
+                  </div>
+
+                  <div class="btn_flex_end">
+                    <div class="btn_bar">
+                      <a
+                        class="m_btn m_btn_theme"
+                        href="https://www.linkedin.com/in/claireSWL"
+                        target="_blank"
+                        >download cv</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!--Skill & Servise Page -->
+        <section id="skill&service">
+          <div class="container">
+            <div class="section_title">
+              <div class="loader">
+                <h3>skill & service</h3>
+              </div>
+              <p>code, create, innovate</p>
+            </div>
+
+            <div class="content">
+              <div class="progress_bar">
+                <div class="skill_box">
+                  <span class="skill_item">HTML 5</span>
+                  <div class="skill_bar">
+                    <span class="skill_per html" data-with="90%">
+                      <span class="tooltip">90%</span>
+                    </span>
+                  </div>
+                </div>
+
+                <div class="skill_box">
+                  <span class="skill_item">CSS 3</span>
+                  <div class="skill_bar">
+                    <span class="skill_per css" data-with="80%">
+                      <span class="tooltip">80%</span>
+                    </span>
+                  </div>
+                </div>
+
+                <div class="skill_box">
+                  <span class="skill_item">JavaScript</span>
+                  <div class="skill_bar">
+                    <span class="skill_per javascript" data-with="70%">
+                      <span class="tooltip">70%</span>
+                    </span>
+                  </div>
+                </div>
+
+                <div class="skill_box">
+                  <span class="skill_item">UI/UX</span>
+                  <div class="skill_bar">
+                    <span class="skill_per uiux" data-with="30%">
+                      <span class="tooltip">30%</span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="service_content">
+                <div class="feature_box">
+                  <div class="service_icon">
+                    <i class="fa-solid fa-desktop"></i>
+                  </div>
+                  <div class="feature_box_item">Unique Design</div>
+                </div>
+
+                <div class="feature_box">
+                  <div class="service_icon">
+                    <i class="fa-solid fa-wand-magic-sparkles"></i>
+                  </div>
+                  <div class="feature_box_item">Different Layout</div>
+                </div>
+
+                <div class="feature_box">
+                  <div class="service_icon">
+                    <i class="fa-solid fa-tablet-screen-button"></i>
+                  </div>
+                  <div class="feature_box_item">Responsiveness</div>
+                </div>
+
+                <div class="feature_box">
+                  <div class="service_icon">
+                    <i class="fa-solid fa-universal-access"></i>
+                  </div>
+                  <div class="feature_box_item">Make it Simple</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Portfolio Page -->
+        <section id="portfolio">
+          <div class="container">
+            <div class="section_title">
+              <div class="loader">
+                <h3>recent works</h3>
+              </div>
+              <p>design, develop, deliver</p>
+            </div>
+
+            <div class="content">
+              <div class="portfolio_gallery">
+                <div class="portfolio_box">
+                  <img
+                    class="portfolio_img"
+                    src="images/20240401.jpg"
+                    alt="image"
+                  />
+                  <a
+                    class="link_overlay"
+                    href="https://www.blankspace.com.tw/pages/leathercare"
+                    target="_blank"
+                  ></a>
+
+                  <div class="info">Leather Care</div>
+                </div>
+
+                <div class="portfolio_box">
+                  <img
+                    class="portfolio_img"
+                    src="images/20240408.jpg"
+                    alt="image"
+                  />
+                  <a
+                    class="link_overlay"
+                    href="https://www.blankspace.com.tw/pages/experience_store"
+                    target="_blank"
+                  ></a>
+
+                  <div class="info">Experience Store</div>
+                </div>
+
+                <div class="portfolio_box">
+                  <img
+                    class="portfolio_img"
+                    src="images/20240422.jpg"
+                    alt="image"
+                  />
+                  <a
+                    class="link_overlay"
+                    href="https://www.blankspace.com.tw/pages/aboutavery"
+                    target="_blank"
+                  ></a>
+
+                  <div class="info">Avery Tote Bag</div>
+                </div>
+
+                <div class="portfolio_box">
+                  <img
+                    class="portfolio_img"
+                    src="images/20240520.jpg"
+                    alt="image"
+                  />
+                  <a
+                    class="link_overlay"
+                    href="https://www.blankspace.com.tw/pages/quiet-world"
+                    target="_blank"
+                  ></a>
+
+                  <div class="info">Quiet World</div>
+                </div>
+
+                <div class="portfolio_box">
+                  <img
+                    class="portfolio_img"
+                    src="images/20240620.jpg"
+                    alt="image"
+                  />
+                  <a
+                    class="link_overlay"
+                    href="https://www.blankspace.com.tw/pages/lucky-cookie"
+                    target="_blank"
+                  ></a>
+
+                  <div class="info">A Lucky Break</div>
+                </div>
+
+                <div class="portfolio_box">
+                  <img
+                    class="portfolio_img"
+                    src="images/20240624.jpg"
+                    alt="image"
+                  />
+                  <a
+                    class="link_overlay"
+                    href="https://www.blankspace.com.tw/pages/a-comfortable-dwelling"
+                    target="_blank"
+                  ></a>
+
+                  <div class="info">A Comfortable Dwelling</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- About_more Page -->
+        <section>
+          <div class="about_more">
+            <div class="wrap_container_1">
+              <span>In</span> <span>my</span> <span>free</span>
+              <span>time,</span> <span>I</span> <span>love</span>
+              <span>to</span> <span>read</span> <span>good</span>
+              <span>books,</span> <span>learn</span> <span>Japanese,</span>
+              <span>listen</span> <span>to</span> <span>music,</span>
+              <span>do</span> <span>yoga,</span> <span>and</span>
+              <span>taravel.</span>
+            </div>
+            <div class="wrap_container_2">
+              <span>There's</span> <span>nothing</span> <span>better</span>
+              <span>than</span> <span>cooking</span> <span>a</span>
+              <span>delicious</span> <span>dish,</span> <span>watching</span>
+              <span>art</span> <span>films,</span> <span>visiting</span>
+              <span>a</span> <span>museum</span> <span>or</span>
+              <span>relaxing</span> <span>through</span>
+              <span>meditation.</span>
+            </div>
+            <div class="wrap_container_3">
+              <span>And</span> <span>nothing</span> <span>compares</span>
+              <span>to</span> <span>spending</span> <span>time</span>
+              <span>with</span> <span>loved</span> <span>ones!</span>
+            </div>
+          </div>
+        </section>
+
+        <!-- Project Page -->
+        <section id="project">
+          <div class="container">
+            <div class="section_title">
+              <div class="loader">
+                <h3>my project</h3>
+              </div>
+              <p>
+                <span>passion</span>, <span>dedication</span> and lots of
+                <span>coffee</span>
+              </p>
+            </div>
+
+            <div class="project_gallery owl-carousel">
+              <div class="project_box">
+                <img class="project_img" src="images/My_todo.jpg" alt="image" />
+              </div>
+
+              <div class="project_box">
+                <img
+                  class="project_img link_overlay_project"
+                  src="images/music_streaming_app.jpg"
+                  alt="image"
+                />
+                <a href="#" target="_blank" class="link_overlay"></a>
+
+                <div class="info">On Progressing</div>
+              </div>
+
+              <div class="project_box">
+                <img
+                  class="project_img link_overlay_project"
+                  src="images/recipe_finder.jpg"
+                  alt="image"
+                />
+                <a href="#" target="_blank" class="link_overlay"></a>
+
+                <div class="info">On Progressing</div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Contact Page -->
+        <section id="contact">
+          <div class="container">
+            <div class="section_title">
+              <div class="loader">
+                <h3>drop me a line</h3>
+              </div>
+              <p>
+                It would be a <span>pleasure</span> to help you with your
+                website!
+              </p>
+            </div>
+            <div class="content flex_column">
+              <div class="huge_fontsize">
+                <span class="type_it_2"> </span>
+              </div>
+
+              <div class="btn_bar go_to">
+                <a
+                  class="m_btn m_btn_theme"
+                  href="https://www.linkedin.com/in/claireSWL"
+                  target="_blank"
+                  >send message
+                  <i class="fa-brands fa-linkedin"></i>
+                </a>
+              </div>
+            </div>
+
+            <div onclick="scrollToTop()" class="scrollTop">
+              <i class="fa-solid fa-angles-up"></i>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <div class="container footer_content">
+          <div class="copyright">Always made with love ©2024</div>
+        </div>
+      </footer>
+    </div>
+
+    <script>
+      // Navivgation Bar
+      const toggleBtn = document.querySelector(".toggle_btn");
+      const toggleBtnIcon = document.querySelector(".toggle_btn i");
+      const dropdownMenu = document.querySelector(".dropdown_menu");
+
+      toggleBtn.addEventListener("click", () => {
+        dropdownMenu.classList.toggle("open");
+
+        const isOpen = dropdownMenu.classList.contains("open");
+
+        if (isOpen) {
+          toggleBtnIcon.style.transform = "rotate(90deg)";
+        } else {
+          toggleBtnIcon.style.transform = "rotate(0deg)";
+        }
+      });
+
+      //Type_it Animation
+      document.addEventListener("DOMContentLoaded", () => {
+        var options = {
+          strings: ["Developer", "Designer"],
+          typeSpeed: 70,
+          backSpeed: 60,
+          loop: true,
+        };
+
+        var typed = new Typed(".type_it", options);
+      });
+
+      //Scroll-triggered Progress animation
+      // 判斷高度
+      window.addEventListener("scroll", () => {
+        const skillPerArray = document.querySelectorAll(".skill_per");
+
+        // const skillPerHtml = document.querySelector(".skill_per.html");
+        // const skillPerCss = document.querySelector(".skill_per.css");
+        // const skillPerJavascript = document.querySelector(
+        //   ".skill_per.javascript"
+        // );
+        // const skillPerUiux = document.querySelector(".skill_per.uiux");
+
+        // // 是否出現在螢幕上
+        const viewPortHeight = window.innerHeight;
+
+        // function handleForEach (element) {
+        //   const test = element.getBoundingClientRect().top;
+        // }
+
+        skillPerArray.forEach((element) => {
+          const _top = element.getBoundingClientRect().top;
+
+          const isElementVisible = _top < viewPortHeight && _top > 0;
+          // const skillPerHtmlTop = skillPerHtml.getBoundingClientRect().top;
+          // const skillPerCssTop = skillPerCss.getBoundingClientRect().top;
+          // const skillPerJavascriptTop =
+          //   skillPerJavascript.getBoundingClientRect().top;
+          // const skillPerUiuxTop = skillPerUiux.getBoundingClientRect().top;
+
+          // 產生特效
+          if (isElementVisible) {
+            element.classList.add("active");
+          } else {
+            element.classList.remove("active");
+          }
+        });
+        // if (skillPerHtmlTop < viewportHeight && skillPerHtmlTop > 0) {
+        //   skillPerHtml.classList.add("active");
+        // } else {
+        //   skillPerHtml.classList.remove("active");
+        // }
+
+        // if (skillPerCssTop < viewportHeight && skillPerCssTop > 0) {
+        //   skillPerCss.classList.add("active");
+        // } else {
+        //   skillPerCss.classList.remove("active");
+        // }
+
+        // if (
+        //   skillPerJavascriptTop < viewportHeight &&
+        //   skillPerJavascriptTop > 0
+        // ) {
+        //   skillPerJavascript.classList.add("active");
+        // } else {
+        //   skillPerJavascript.classList.remove("active");
+        // }
+
+        // if (skillPerUiuxTop < viewportHeight && skillPerUiuxTop > 0) {
+        //   skillPerUiux.classList.add("active");
+        // } else {
+        //   skillPerUiux.classList.remove("active");
+        // }
+      });
+
+      // Smooth font color change on scroll
+
+      // Owl Carousel Conversion
+      $(document).ready(() => {
+        $(".owl-carousel").owlCarousel({
+          item: 3,
+          loop: true,
+          margin: 10,
+          autoplay: true,
+          autoplayTimeout: 3000,
+          autoplayHoverPause: true,
+          responsive: {
+            0: {
+              items: 1,
+            },
+            600: {
+              items: 3,
+            },
+          },
+        });
+      });
+
+      //Smooth font color change on scroll
+      gsap.set(".span", { color: "#000033" });
+
+      gsap
+        .timeline({
+          scrollTrigger: {
+            trigger: ".about_more",
+            start: "top 80%",
+            end: "top 20%",
+            scrub: 0.1, // 滾動速度
+          },
+        })
+        .to("span", {
+          color: "#d9832e",
+          duration: 1, // 動畫持續時間
+          stagger: 2, // 每個 span 元素動畫間隔時間
+          ease: "none",
+        });
+
+      //Scroll-triggered type_it_2 animation
+      document.addEventListener("DOMContentLoaded", () => {
+        const typeItElements = document.querySelectorAll(".type_it_2");
+        const viewPortHeight = window.innerHeight;
+
+        typeItElements.forEach((element) => {
+          let isTyped = false;
+          let typed;
+
+          function checkVisibility() {
+            const typeItTop = element.getBoundingClientRect().top;
+            const isElementVisible =
+              typeItTop < viewPortHeight && typeItTop >= 0;
+
+            if (isElementVisible && !isTyped) {
+              const options = {
+                strings: [
+                  "",
+                  "<span id='email_color'>clairelin0724@gmail.com</span>",
+                ],
+                typeSpeed: 70,
+                cursorChar: "_",
+              };
+
+              if (typed) {
+                typed.destroy(); // 銷毀之前的實例
+              }
+
+              typed = new Typed(element, options);
+              isTyped = true; // 防止重複初始化
+            } else if (!isElementVisible) {
+              isTyped = false; // 元素不可見時重置標誌
+            }
+          }
+
+          window.addEventListener("scroll", checkVisibility);
+          checkVisibility(); // 初始檢查
+        });
+      });
+
+      // Scroll To Top
+      function scrollToTop() {
+        window.scrollTo(0, 0);
+      }
+    </script>
+  </body>
+</html>
